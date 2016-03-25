@@ -22,4 +22,14 @@ public class FileManagerTester {
 		File file2 = new File("/home/rares/nonExistingFile");
 		assertEquals(false, file2.exists());		
 	}
+	
+	@Test
+	public void testDeleteFile(){
+		FileManager fileManager = new FileManager();
+		fileManager.createFile("/home/rares", "fileToBeDeleted");
+		fileManager.deleteFile("/home/rares/fileToBeDeleted");
+		File file = new File("/home/rares/fileToBeDeleted");
+		assertEquals(true, !file.exists());
+		assertEquals(false,file.exists());
+	}
 }
