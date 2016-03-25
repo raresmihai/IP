@@ -1,4 +1,4 @@
-
+package managers;
 public class ManagerFactory {
 	
 	private static ProcessManager processManagerSingleton;
@@ -6,6 +6,7 @@ public class ManagerFactory {
 	private static FileManager fileManagerSingleton;
 	private static DeviceManager deviceManagerSingleton;
 	private static NetworkManager networkManagerSingleton;
+	//dsds
 	
 	
 	private ManagerFactory()

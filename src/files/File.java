@@ -1,8 +1,10 @@
+package files;
 
 
 public class File implements Cloneable {
 
 	String name,owner,rights,type;
+	//.sds
 	
 	public  Object clone()
 	{

@@ -1,5 +1,6 @@
+package managers;
 
 public class AbstractManager {
 	
-//comentariu
+//comentariuss
 }

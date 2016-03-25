@@ -1,7 +1,8 @@
+package files;
 
 public class AudioFile extends File {
 
-	//todo
+	//todosdsd
 	public AudioFile()
 	{
 		type="Audio File";
