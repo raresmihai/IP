@@ -9,7 +9,13 @@ public class GUI implements UserInterface {
 	public void createFile(String name, String path) {
 		// TODO Auto-generated method stub
 		
-		File f = new File(path)
+		
+	}
+
+	@Override
+	public boolean login(String userName, String password) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }
