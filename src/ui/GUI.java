@@ -1,5 +1,7 @@
 package ui;
 
+import files.File;
+
 public class GUI implements UserInterface {
 
 	//sdsd
@@ -7,6 +9,7 @@ public class GUI implements UserInterface {
 	public void createFile(String name, String path) {
 		// TODO Auto-generated method stub
 		
+		File f = new File(path)
 	}
 
 }
