@@ -11,7 +11,7 @@ public class FileManager extends AbstractManager {
 	
 	public void createFile(String path,String fileName)
 	{
-		File f = new File(path+"\\"+fileName);
+		File f = new File(path+"/"+fileName);
 		try {
 			f.createNewFile();
 		} catch (IOException e) {
