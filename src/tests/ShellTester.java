@@ -13,7 +13,7 @@ public class ShellTester {
 	@Test
 	public void testLogin() {
 		UserInterface ui = new Shell();
-		assertEquals(true, ui.login("admin", "admin23"));
+		assertEquals(true, ui.login("admin", "admin"));
 		assertEquals(false, ui.login("test", "testing"));
 	}
 }
