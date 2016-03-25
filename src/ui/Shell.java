@@ -36,6 +36,11 @@ public class Shell implements UserInterface {
 		return false;
 	}
 	
+	public void exit()
+	{
+		System.out.println("goodbye");
+		System.exit(0);
+	}
 	
 	
 
