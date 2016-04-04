@@ -1,6 +1,5 @@
 package app;
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 import managers.*;
 import ui.UserInterface;
